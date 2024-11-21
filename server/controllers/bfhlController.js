@@ -8,9 +8,9 @@ exports.handlePostRequest = (req, res) => {
       return res.status(400).json({ is_success: false, error: "Data is required" });
     }
 
-    const email = "sumitchoudhary210205@acropolis.in";
-    const rollNumber = "0827AL211063";
-    const userId = "sumit_choudhary_20022002";
+    const email = "vishal.patel@cdgi.edu.in";
+    const rollNumber = "0832CS211199";
+    const userId = "vishal_patel_20062003";
 
     const { numbers, alphabets, highestLowercase, isPrimeFound } = processInputData(data);
 
